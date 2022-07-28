@@ -1,0 +1,376 @@
+.main-container{
+    min-width: 96% !important;
+}
+@mixin Display {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header{
+    .main-container{
+        .nav{
+            display: flex;
+            align-items: center;
+        }
+        .logo{
+            width: 18%;
+            img{
+                width: 168px;
+            }
+        }
+        #menu{
+            display: none !important;
+            font-size: 25px;
+            color: #7e5a4e;
+            display: flex;
+            justify-content: center;
+        }
+        .nav-links{
+            width: 61%;
+            a{
+                color: #7e5a4e;
+                text-decoration: none;
+                font-size: 16px;
+                margin: 0 20px;
+                &:first-child{
+                    margin-left: 0;
+                }
+            }
+        }
+        .wp{
+            width: 20%;
+            height: 80px;
+            background-color: #7e5a4e;
+            @include Display();
+
+            .desc{
+                display: flex;
+            align-items: center;
+            color: white;
+            width: fit-content;
+
+                .circle{
+                    margin-right: 10px;
+                    width: 42px;
+                    height: 42px;
+                    border-radius: 50%;
+                    border: 3px solid white;
+                    @include Display();
+                    color: white;
+                }
+                .contact{
+                    .about{
+                        font-size: 20px;
+                        font-weight: 500;
+    
+                    }
+                    .num{
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+    }
+}
+.blog{
+    height: 362px;
+    background-image: url(../images/different-types-of-bread-with-spikelets-.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+
+    &::after{
+        position: absolute;
+        content: "";
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.3);
+    }
+    .text-area{
+        position: relative;
+        z-index: 1;
+        h1{
+            font-size: 74px;
+            color: white;
+        }
+        .link{
+            display: flex;
+            align-items: center;
+            span{
+                font-size: 20px;
+                color: white;
+            }
+            .line{
+                margin-right: 12px;
+                margin-left: 12px;
+                width: 15px;
+                height: 3px;
+                background-color: rgb(129, 100, 46);
+                
+            }
+        }
+
+    }
+}
+.card-sec{
+    background-image: url(../images/43.jpg);
+    .main-container{
+        padding-top: 80px;
+        padding-bottom: 110px;
+        .row{
+            .card-area{
+                margin-top: 40px;
+                .my-card{
+                    box-shadow: 0 0 10px 0 rgba(0,0,0,.3);
+                    background-color: white;
+                    .img-area{
+                        width: 100%;
+                        height: 443px;
+                        background-image: url(../images/pancakes-with-vanilla-sauce.jpg);
+                        background-size: cover;
+                        background-position: center;
+                        display: flex;
+                        justify-content: flex-end;
+                        span{
+                            display: inline-block;
+                            width: 93px;
+                            height: 28px;
+                            background-color: white;
+                            @include Display();
+                            font-size: 12px;
+                            font-weight: 600;
+                            margin-top: 20px;
+                            margin-right: 20px;
+
+                        }
+                    }
+                    .text-area{
+                        padding: 10px 25px 0px;
+                        .title{
+                            font-size: 30px;
+                            font-weight: 600;
+                            margin-bottom: 10px;
+                            line-height: 1.2;
+                        }
+                        .desc{
+                            font-size: 16px;
+                            color: #757575;
+                            margin-bottom: 30px;
+                        }
+                        .foot{
+                            padding: 10px 0px;
+                            color: #e46e49;
+                            border-top: 1px solid #e6dfdf;
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+}
+.footer{
+    background-image: url(../images/bread-and-bakery.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+        &::after{
+            position: absolute;
+            content: "";
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+    .foot-top{
+        padding-top: 100px;
+        padding-bottom: 60px;
+        position: relative;
+        z-index: 1;
+        
+        .main-container{
+            .row{
+                display: flex;
+                justify-content: space-between;
+                .part1{
+                    .title{
+                        img{
+                            width: 178px;
+                        }
+                        margin-bottom: 16px;
+                    }
+                    .desc{
+                        font-size: 16px;
+                        color: white;
+                        margin-bottom: 34px;
+
+                    }
+                    .web{
+                        display: flex;
+                        align-items: center;
+                        .icon{
+                            width: 30px;
+                            height: 30px;
+                            background-color: #e46e49;
+                            color: white;
+                            @include Display();
+                            font-size: 15px;
+                            margin-right: 6px;
+                        }
+                    }
+                }
+                .part2{
+                    h4{
+                        color: white;
+                        
+                    }
+                    p{
+                        color: white;
+                        i{
+                            color: #e46e49;
+                            margin-right: 7px;
+                        }
+                        margin-bottom: 7px;
+                    }
+                    .p4{
+                        margin-bottom: 2px;
+                    }
+                    span{
+                        color: white;
+                        margin-bottom: 10px;
+                        display: inline-block;
+                        font-size: 13px;
+                    }
+                }
+            }
+        }
+    }
+    .foot-bottom{
+        color: white;
+        position: relative;
+        z-index: 1;
+        padding-bottom: 80px;
+        .row{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .col-lg-8{
+                font-size: 13px;
+                
+            }
+            .col-lg-3{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                .terms{
+                    display: flex;
+                    align-items: center;
+
+                    .dot{
+                        width: 6px;
+                        height: 6px;
+                        background-color: #e46e49;
+                        margin-right: 5px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 992px) {
+    .footer{
+        .foot-top{
+            .title{
+                display: flex;
+                justify-content: center;
+            }
+            .desc{
+                padding: 0px 90px;
+                text-align: center;
+            }
+            .web{
+                justify-content: center;
+                margin-bottom: 30px;
+            }
+            .part2{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+    }
+}
+@media screen and (max-width: 600px) {
+    .footer{
+        .foot-top{
+          
+            .desc{
+                padding: 0px 15px;
+                text-align: center;
+            }
+
+           
+        }
+        
+    }
+}
+@media screen and (max-width: 768px) {
+    .footer{
+        .foot-bottom{
+            .col-lg-8{
+                text-align: center;
+            }
+            .col-lg-3{
+                justify-content: space-evenly !important;
+            }
+        }
+        
+    }
+}
+@media screen and (max-width: 1025px) {
+    .header{
+        .nav{
+            display: flex;
+            justify-content: space-between;
+            .nav-links{
+                display: none;
+            }
+            .wp{
+                width: 50%;
+            }
+            .logo{
+                width: 40%;
+                img{
+                    max-width: 100%;
+                }
+            }
+            #menu{
+                display: flex !important;
+                width: 10%;
+            }
+            .desc{
+                text-align: left !important;
+                .circle{
+                    width: 30px !important;
+                    height: 30px !important;
+                    i{
+                        font-size: 14px !important;
+                    }
+                    
+                }
+                .about{
+                    font-size: 12px !important;
+                }
+                .num{
+                    font-size: 9px !important;
+                }
+            }
+
+        }
+    }
+}

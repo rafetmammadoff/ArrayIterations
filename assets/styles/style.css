@@ -1,0 +1,480 @@
+.main-container {
+  min-width: 96% !important;
+}
+
+.header .main-container .nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .main-container .logo {
+  width: 18%;
+}
+
+.header .main-container .logo img {
+  width: 168px;
+}
+
+.header .main-container #menu {
+  display: none !important;
+  font-size: 25px;
+  color: #7e5a4e;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.header .main-container .nav-links {
+  width: 61%;
+}
+
+.header .main-container .nav-links a {
+  color: #7e5a4e;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 0 20px;
+}
+
+.header .main-container .nav-links a:first-child {
+  margin-left: 0;
+}
+
+.header .main-container .wp {
+  width: 20%;
+  height: 80px;
+  background-color: #7e5a4e;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.header .main-container .wp .desc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.header .main-container .wp .desc .circle {
+  margin-right: 10px;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  border: 3px solid white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white;
+}
+
+.header .main-container .wp .desc .contact .about {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.header .main-container .wp .desc .contact .num {
+  font-size: 16px;
+}
+
+.blog {
+  height: 362px;
+  background-image: url(../images/different-types-of-bread-with-spikelets-.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.blog::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.blog .text-area {
+  position: relative;
+  z-index: 1;
+}
+
+.blog .text-area h1 {
+  font-size: 74px;
+  color: white;
+}
+
+.blog .text-area .link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.blog .text-area .link span {
+  font-size: 20px;
+  color: white;
+}
+
+.blog .text-area .link .line {
+  margin-right: 12px;
+  margin-left: 12px;
+  width: 15px;
+  height: 3px;
+  background-color: #81642e;
+}
+
+.card-sec {
+  background-image: url(../images/43.jpg);
+}
+
+.card-sec .main-container {
+  padding-top: 80px;
+  padding-bottom: 110px;
+}
+
+.card-sec .main-container .row .card-area {
+  margin-top: 40px;
+}
+
+.card-sec .main-container .row .card-area .my-card {
+  -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+          box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  background-color: white;
+}
+
+.card-sec .main-container .row .card-area .my-card .img-area {
+  width: 100%;
+  height: 443px;
+  background-image: url(../images/pancakes-with-vanilla-sauce.jpg);
+  background-size: cover;
+  background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.card-sec .main-container .row .card-area .my-card .img-area span {
+  display: inline-block;
+  width: 93px;
+  height: 28px;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 12px;
+  font-weight: 600;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.card-sec .main-container .row .card-area .my-card .text-area {
+  padding: 10px 25px 0px;
+}
+
+.card-sec .main-container .row .card-area .my-card .text-area .title {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  line-height: 1.2;
+}
+
+.card-sec .main-container .row .card-area .my-card .text-area .desc {
+  font-size: 16px;
+  color: #757575;
+  margin-bottom: 30px;
+}
+
+.card-sec .main-container .row .card-area .my-card .text-area .foot {
+  padding: 10px 0px;
+  color: #e46e49;
+  border-top: 1px solid #e6dfdf;
+}
+
+.footer {
+  background-image: url(../images/bread-and-bakery.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.footer::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.footer .foot-top {
+  padding-top: 100px;
+  padding-bottom: 60px;
+  position: relative;
+  z-index: 1;
+}
+
+.footer .foot-top .main-container .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer .foot-top .main-container .row .part1 .title {
+  margin-bottom: 16px;
+}
+
+.footer .foot-top .main-container .row .part1 .title img {
+  width: 178px;
+}
+
+.footer .foot-top .main-container .row .part1 .desc {
+  font-size: 16px;
+  color: white;
+  margin-bottom: 34px;
+}
+
+.footer .foot-top .main-container .row .part1 .web {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer .foot-top .main-container .row .part1 .web .icon {
+  width: 30px;
+  height: 30px;
+  background-color: #e46e49;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 15px;
+  margin-right: 6px;
+}
+
+.footer .foot-top .main-container .row .part2 h4 {
+  color: white;
+}
+
+.footer .foot-top .main-container .row .part2 p {
+  color: white;
+  margin-bottom: 7px;
+}
+
+.footer .foot-top .main-container .row .part2 p i {
+  color: #e46e49;
+  margin-right: 7px;
+}
+
+.footer .foot-top .main-container .row .part2 .p4 {
+  margin-bottom: 2px;
+}
+
+.footer .foot-top .main-container .row .part2 span {
+  color: white;
+  margin-bottom: 10px;
+  display: inline-block;
+  font-size: 13px;
+}
+
+.footer .foot-bottom {
+  color: white;
+  position: relative;
+  z-index: 1;
+  padding-bottom: 80px;
+}
+
+.footer .foot-bottom .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer .foot-bottom .row .col-lg-8 {
+  font-size: 13px;
+}
+
+.footer .foot-bottom .row .col-lg-3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer .foot-bottom .row .col-lg-3 .terms {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer .foot-bottom .row .col-lg-3 .terms .dot {
+  width: 6px;
+  height: 6px;
+  background-color: #e46e49;
+  margin-right: 5px;
+}
+
+@media screen and (max-width: 992px) {
+  .footer .foot-top .title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .footer .foot-top .desc {
+    padding: 0px 90px;
+    text-align: center;
+  }
+  .footer .foot-top .web {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: 30px;
+  }
+  .footer .foot-top .part2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .footer .foot-top .desc {
+    padding: 0px 15px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer .foot-bottom .col-lg-8 {
+    text-align: center;
+  }
+  .footer .foot-bottom .col-lg-3 {
+    -webkit-box-pack: space-evenly !important;
+        -ms-flex-pack: space-evenly !important;
+            justify-content: space-evenly !important;
+  }
+}
+
+@media screen and (max-width: 1025px) {
+  .header .nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .header .nav .nav-links {
+    display: none;
+  }
+  .header .nav .wp {
+    width: 50%;
+  }
+  .header .nav .logo {
+    width: 40%;
+  }
+  .header .nav .logo img {
+    max-width: 100%;
+  }
+  .header .nav #menu {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    width: 10%;
+  }
+  .header .nav .desc {
+    text-align: left !important;
+  }
+  .header .nav .desc .circle {
+    width: 30px !important;
+    height: 30px !important;
+  }
+  .header .nav .desc .circle i {
+    font-size: 14px !important;
+  }
+  .header .nav .desc .about {
+    font-size: 12px !important;
+  }
+  .header .nav .desc .num {
+    font-size: 9px !important;
+  }
+}
+/*# sourceMappingURL=style.css.map */
